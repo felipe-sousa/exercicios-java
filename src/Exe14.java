@@ -9,7 +9,7 @@ public class Exe14
 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int maior=0,menor=0,num=0;
+        int maior=0,menor,num;
 
         //Solicita o primeiro número e atribui a variável Menor
         System.out.print("Digite um número: ");
