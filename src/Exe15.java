@@ -8,7 +8,7 @@ import java.util.Scanner;
  *   A média calculada deverá ser devolvida ao programa principal para, então, ser mostrada.
  */
 
-public abstract class Exe15
+public class Exe15
 {
     public static void main(String[] args) {
 
@@ -31,7 +31,7 @@ public abstract class Exe15
         opcao = input.next();
 
         if (opcao.equalsIgnoreCase("A")) System.out.printf("A Média Aritmética das notas é %d", calcularMediaAritmetica(nota1,nota2,nota3));
-        else if (opcao.equalsIgnoreCase("P")) System.out.printf("A Média Ponderada das notas é %d", calcularMediaAritmetica(nota1,nota2,nota3));
+        else if (opcao.equalsIgnoreCase("P")) System.out.printf("A Média Ponderada das notas é %d", calcularMediaPonderada(nota1,nota2,nota3));
         else System.out.printf("A opção '%s' é inválida.", opcao);
 
     }
